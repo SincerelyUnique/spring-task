@@ -15,7 +15,7 @@ public class ScheduledTaskForQuartz {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
     public void reportCurrentTime() {
-        System.out.println("日志打印时间："+dateFormat.format(new Date()));
+        System.out.println("日志打印时间（quartz实现）："+dateFormat.format(new Date()));
     }
 
 }
